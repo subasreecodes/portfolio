@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Styling the navigation */
+nav {
+    background-color: rgb(45, 52, 45);
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    /* Centering the navigation links */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    /* Use flexbox for horizontal alignment */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Styling the sections */
+section {
+    padding: 50px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Different background colors for each section */
+#about {
+    background-color: rgb(143, 152, 143);
+    margin: 50px;
+    color: rgb(78, 106, 79);
+}
+
+#projects {
+    background-color: rgb(108, 121, 108);
+    margin: 50px;
+    color:rgb(201, 215, 201);
+}
+
+#extra {
+    background-color: rgb(143, 152, 143);
+    margin: 50px;
+    color:rgb(78, 106, 79);
+}
+
